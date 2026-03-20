@@ -26,6 +26,3 @@ function convertToRoman(num) {
 
     return result;
 }
-
-// टेस्ट
-console.log(convertToRoman(36)); // XXXVI
