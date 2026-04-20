@@ -1,3 +1,4 @@
+
 function convertToRoman(num) {
     const values = [
         [1000, 'M'],
@@ -26,3 +27,6 @@ function convertToRoman(num) {
 
     return result;
 }
+
+const num = Number(prompt("Enter a number: "));
+alert(convertToRoman(num));
